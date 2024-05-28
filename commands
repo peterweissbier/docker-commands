@@ -1,9 +1,10 @@
 docker-compose up -d
-  
-docker container ls
+
+docker container lists
+docker restart [1d9c6623783a]
 docker container remove (-f)
 
 docker image list
-docker image remove
+docker image remove [1d9c6623783a]
 
 https://docs.docker.com/reference/cli/docker/ for more commands
